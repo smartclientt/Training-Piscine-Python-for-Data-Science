@@ -1,5 +1,4 @@
 def all_thing_is_obj(object: any) -> int:
-    """Print the type of an object and return 42."""
     obj_type = type(object)
     
     if obj_type == list:
